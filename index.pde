@@ -1,10 +1,10 @@
-size(300, 300);
+size(400, 400);
 
 smooth();
 
 background(0);
 
-strokeWeight(10);
+strokeWeight(3);
 
 
 for(int i = 0; i < width; i++) {
@@ -13,7 +13,7 @@ for(int i = 0; i < width; i++) {
 
 	  float x = random(1, width);
 
-	  stroke(r, 100);
+	  stroke(r, 50);
 
 	  line(i, 0, x, height);
 
@@ -33,3 +33,6 @@ void draw() {
 
 	}
 }
+
+
+// based on idea by Casey Reas and Ben Fry http://processingjs.org/learning/basic/random/
